@@ -35,7 +35,7 @@ int main (int argc, char **argv)
   ac.waitForServer();
   ROS_INFO("Action client is connected to the server..");
 
-  while (true)
+  while (ros::ok())
   {
   std::cout<<"Please enter a number: ";
     prime_tutorial::PrimeGoal goal;
@@ -70,4 +70,5 @@ int main (int argc, char **argv)
   }      
 
   }
+  return 0;
 }
