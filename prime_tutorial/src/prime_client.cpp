@@ -40,6 +40,7 @@ int main (int argc, char **argv)
   std::cout<<"Please enter a number: ";
     prime_tutorial::PrimeGoal goal;
     std::cin>>goal.number;
+    
   // If the user didn't input a number
   if(!std::cin)
   {
