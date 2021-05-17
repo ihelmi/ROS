@@ -1,7 +1,6 @@
 # Table of Contents
-- [prime_tutorial](#Description)
-- [executing the nodes](#Prime_action_client_server)
-
+- [Description](#description)
+- [Executing the nodes](#executing-the-nodes)
 
 
 # Description
